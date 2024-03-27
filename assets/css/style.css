@@ -1,0 +1,44 @@
+.sidebar {
+    background-color: #98a0a9;
+    padding: 20px;
+    width: 80%;
+    height: 90vh;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .nav-link.hoverable:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .content-section {
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+  .project-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .contact-icons i {
+    margin: 10px;
+    color: #007bff; 
+    transition: color 0.3s ease-in-out;
+  }
+
+  .contact-icons i:hover {
+    color: #0056b3; 
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  a:hover {
+    list-style: none;
+    text-decoration: none;
+  }
